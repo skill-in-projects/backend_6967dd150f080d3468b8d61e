@@ -7,7 +7,7 @@ from psycopg import AsyncConnection
 from psycopg.rows import dict_row
 
 router = APIRouter(prefix="/api/test", tags=["test"])
-
+dfsdf
 async def get_db_connection():
     """Get a database connection - only called when endpoint is accessed, not on import"""
     connection_string = os.getenv("DATABASE_URL")
